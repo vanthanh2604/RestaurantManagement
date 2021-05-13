@@ -1,0 +1,20 @@
+.table-list .table-list-content ul li{
+	float: left;
+	line-height: 70px;
+	margin:6px;
+	height: 70px;
+	background: gray;
+	color: #fff;
+	border-radius:3px;
+	width: calc(100% * (1/6) - 12px );
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+}
+.table-list .table-list-content ul li.tb-active{
+	background:#FF5823;
+}
+.table-list .table-list-content ul li.inused{
+	background:#F94646;
+}
